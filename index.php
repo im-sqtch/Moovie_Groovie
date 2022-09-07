@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoovieGroovie</title>
+    <title>MovieGroove</title>
     <link rel="short icon" href="<?= $BASE_URL ?>img/moviestar.ico">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.css" integrity="sha512-h1rwF0uB6r2IuEZcyjPrR53bBKN9Wb4yL+w3Rdlzmc3CkBF1gMSFvQIIstnu4bEtYDaKca5ke5S8UBAACRImyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,10 +22,10 @@
 </head>
 <body>
     <header>
-        <nav id="main-navbar" class="navbar navbar-extended-lg">
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
             <a href="<?= $BASE_URL ?>" class="navbar-brand">
-                <img src="<?= $BASE_URL ?>img/logo.svg" alt="MoovieGroovie" id="logo">
-                <span id="moviestar-title">MoovieGroovie</span>
+                <img src="<?= $BASE_URL ?>img/logo.svg" alt="MovieGroove" id="logo">
+                <span id="moviestar-title">MovieGroove</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar/Cadastrar</a>
+                        <a href="<?= $BASE_URL ?>auth.php" class="nav-link alo">Entrar / Cadastrar</a>
                     </li>
                 </ul>
             </div>
@@ -49,13 +49,13 @@
         <h1>Corpo do Site</h1>
     </div>
     <footer id="footer">
-        <div class="socila-container">
+        <div class="social-container">
             <ul>
                 <li>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-facebook-instagram"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
                     <a href="#"><i class="fab fa-youtube"></i></a>
